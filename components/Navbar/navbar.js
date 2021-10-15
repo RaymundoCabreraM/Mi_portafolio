@@ -10,11 +10,12 @@ const Navbar = (props) => {
 	return (
 		<Flex
 			as="nav"
-			align="center"
-			justify="space-between"
-			fontSize="18px"
+			direction="column"
+			fontSize="15px"
+			letterSpacing="1px"
 			wrap="wrap"
-			padding={8}
+			boxShadow="dark-lg"
+			padding={10}
 			bg="#343A40"
 			color="white"
 			{...props}
@@ -25,19 +26,28 @@ const Navbar = (props) => {
 
 			<Stack
 				direction={{ base: "column", md: "row-reverse" }}
-				display={{ base: isOpen ? "block" : "none", md: "flex" }}
+				display={{ base: isOpen ? "block" : "none", md: "inline-flex" }}
 				width={{ base: "full", md: "auto" }}
 				alignItems="center"
-				flexGrow={1}
+				flexGrow={5}
+				padding="5px"
 				mt={{ base: 5, md: 0 }}
 			>
-				<Link href="/contactos" textAlign="center" paddingRight="8">
+				<Link
+					href="/contactos"
+					fontSize={["12px", "17px", "20px", "21px"]}
+					paddingRight="8"
+				>
 					Contacto
 				</Link>
-				<Link href="/proyectos" textAlign="center" paddingRight="8">
+				<Link
+					href="/proyectos"
+					fontSize={["12px", "17px", "20px", "21px"]}
+					paddingRight="8"
+				>
 					Proyectos
 				</Link>
-				<Link href="/#" textAlign="center" paddingRight="8">
+				<Link href="/#" fontSize={["12px", "17px", "20px", "21px"]} paddingRight="8">
 					Inicio
 				</Link>
 			</Stack>

@@ -15,16 +15,22 @@ import {
 
 const Cards = () => (
 	<Flex w="100%" h="100%">
-		<Center padding="100px">
-			<Wrap spacing="75px" justify="center" alignItems="center">
+		<Center>
+			<Wrap
+				spacing="30px"
+				paddingTop="35px"
+				margin="25px"
+				justify="center"
+				alignItems="center"
+			>
 				<WrapItem>
 					<HStack>
 						<Box
 							_hover={{ background: "rgb(255,255,255,0.9)" }}
 							bg="white"
 							maxW="350px"
-							boxShadow="2xl"
 							rounded="lg"
+							boxShadow="dark-lg"
 							p={9}
 							overflow="hidden"
 						>
@@ -70,7 +76,7 @@ const Cards = () => (
 							_hover={{ background: "rgb(255,255,255,0.9)" }}
 							bg="white"
 							maxW="350px"
-							boxShadow="2xl"
+							boxShadow="dark-lg"
 							rounded="lg"
 							p={9}
 							overflow="hidden"
@@ -120,7 +126,7 @@ https://codepen.io/RaymundoC13/full/abWxQJb"
 							_hover={{ background: "rgb(255,255,255,0.9)" }}
 							bg="white"
 							maxW="350px"
-							boxShadow="2xl"
+							boxShadow="dark-lg"
 							rounded="lg"
 							p={9}
 							overflow="hidden"
@@ -140,9 +146,8 @@ https://codepen.io/RaymundoC13/full/abWxQJb"
 									Portafolio Personal
 								</Heading>
 								<Text color="blackAlpha.900">
-									Aplicacion movil que nos ayuda a calcular el numero de calorias
-									por dia de forma personalizada, ademas de conocer tu indice de
-									masa corporal, gasto energetico y tasa metabolica basal.
+									Proyecto de mi portafolio personal desarrollada usando
+									frameworks como Next.JS y Chakra UI
 								</Text>
 							</Stack>
 							<Stack mt={8} direction="row" spacing={5} align="center">
@@ -167,7 +172,7 @@ https://codepen.io/RaymundoC13/full/abWxQJb"
 							_hover={{ background: "rgb(255,255,255,0.9)" }}
 							bg="white"
 							maxW="350px"
-							boxShadow="2xl"
+							boxShadow="dark-lg"
 							rounded="lg"
 							p={9}
 							overflow="hidden"
@@ -201,6 +206,48 @@ https://codepen.io/RaymundoC13/full/abWxQJb"
 											Ir a proyecto
 										</Link>
 									</Button>
+								</Stack>
+							</Stack>
+						</Box>
+					</HStack>
+				</WrapItem>
+				<WrapItem>
+					<HStack>
+						<Box
+							_hover={{ background: "rgb(255,255,255,0.9)" }}
+							bg="white"
+							maxW="350px"
+							boxShadow="dark-lg"
+							rounded="lg"
+							p={9}
+							overflow="hidden"
+						>
+							<Image
+								w="auto"
+								h="auto"
+								bg="gray.100"
+								marginTop={-1}
+								mx={-1}
+								src="https://firebasestorage.googleapis.com/v0/b/portafolio-79b05.appspot.com/o/card5.png?alt=media&token=1ce4777a-5b8a-43d7-81c6-3afcb41111ea"
+								mb={9}
+								pos="relative"
+							/>
+							<Stack>
+								<Heading fontSize="2xl" fontFamily="body">
+									Proyecto CMO
+								</Heading>
+								<Text color="blackAlpha.900">
+									Aplicacion de escritorio que ayuda a realizar calculos de mano
+									de obra, Estimaciones de costo por proyecto y determinar que
+									proyecto es mas factible por Cluster aplicando Inteligencia de
+									negocios con PowerBI por medio de la herramienta de Microsoft
+									Excel.
+								</Text>
+							</Stack>
+							<Stack mt={8} direction="row" spacing={5} align="center">
+								<Stack direction="column" spacing={5} fontSize="sm">
+									<Text fontWeight={600}>Grupo Holcim - SQDesarrollo</Text>
+									<Text color="gray.900">Enero - Julio, 2019</Text>
 								</Stack>
 							</Stack>
 						</Box>

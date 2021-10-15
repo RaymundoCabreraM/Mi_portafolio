@@ -2,10 +2,12 @@ import Head from "next/head";
 import { Box } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 import Container from "../components/Container";
+import Footer from "../components/Footer/footer";
+import Bodys from "../components/Container/body";
 
 export default function Home() {
 	return (
-		<Box w="100%" minH="100vh" h="auto" bg="#87929E">
+		<Box bg="#87929E">
 			<Head>
 				<title>Mi portafolio</title>
 				<link rel="icon" href="/favicon.ico" />
@@ -13,9 +15,17 @@ export default function Home() {
 			<main>
 				<div>
 					<Navbar />
+				</div>
+				<div>
 					<Container />
 				</div>
+				<div>
+					<Bodys />
+				</div>
 			</main>
+			<footer>
+				<Footer />
+			</footer>
 		</Box>
 	);
 }

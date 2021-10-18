@@ -8,12 +8,13 @@ import {
 	FormLabel,
 	Input,
 	Button,
+	Link,
 	Textarea,
 } from "@chakra-ui/react";
 
 const Contacto = () => (
 	<Flex
-		direction={["column", "row", "row", "row"]}
+		direction={["column", "column", "column", "row"]}
 		w={["82%", "85%", "95%", "98%"]}
 		paddingLeft={["15px", "65px", "75px", "100px"]}
 		paddingTop={["5px", "65px", "75px", "24px"]}
@@ -32,7 +33,7 @@ const Contacto = () => (
 			spacing={4}
 			minH={["57vw", "58vw", "50vw", "6vw"]}
 			fontSize={["27px", "36px", "42px", "44px"]}
-			w={["99%", "90%", "95%", "43%"]}
+			w={["99%", "90%", "95%", "45%"]}
 		>
 			<Text paddingLeft="5px">Redes Sociales</Text>
 			<Divider variant="solid" h="5px" orientation="horizontal" />
@@ -44,7 +45,9 @@ const Contacto = () => (
 					fontSize={["12px", "17px", "20px", "21px"]}
 				>
 					<Button colorScheme="blue" variant="solid">
-						Linkedln
+						<Link href="https://www.linkedin.com/in/raymundo-cabrera-mena-64431621a/">
+							Linkedln
+						</Link>
 					</Button>
 				</Text>
 			</Box>
@@ -56,7 +59,7 @@ const Contacto = () => (
 					fontSize={["12px", "17px", "20px", "21px"]}
 				>
 					<Button colorScheme="blue" variant="solid">
-						Facebook
+						<Link href="https://www.facebook.com/raymundo.cabrera.54">Facebook</Link>
 					</Button>
 				</Text>
 			</Box>
@@ -68,10 +71,11 @@ const Contacto = () => (
 					fontSize={["12px", "17px", "20px", "21px"]}
 				>
 					<Button colorScheme="blue" variant="solid">
-						Twitter
+						<Link href="https://twitter.com/Raymundoc13">Twitter</Link>
 					</Button>
 				</Text>
 			</Box>
+
 			<Box bg="#87929E" w="100%" p={3} color="white">
 				<Text
 					paddingTop="1px"
@@ -79,20 +83,8 @@ const Contacto = () => (
 					margin="15px"
 					fontSize={["12px", "17px", "20px", "21px"]}
 				>
-					<Button colorScheme="blue" variant="solid">
-						Correo Electronico
-					</Button>
-				</Text>
-			</Box>
-			<Box bg="#87929E" w="100%" p={3} color="white">
-				<Text
-					paddingTop="1px"
-					color="black"
-					margin="15px"
-					fontSize={["12px", "17px", "20px", "21px"]}
-				>
-					<Button colorScheme="blue" variant="solid">
-						Github
+					<Button colorScheme="blackAlpha" variant="solid">
+						<Link href="https://github.com/RaymundoCabreraM">Github</Link>
 					</Button>
 				</Text>
 			</Box>

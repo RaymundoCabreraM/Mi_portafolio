@@ -1,3 +1,3 @@
-import Cards from "./Cards";
+import Footer from "./footer";
 
-export default Cards;
+export default Footer;

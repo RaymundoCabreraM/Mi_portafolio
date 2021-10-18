@@ -3,18 +3,17 @@ import { Divider, Stack, Flex, Text, Image, UnorderedList } from "@chakra-ui/rea
 const container = () => (
 	<Flex
 		direction={["column", "column", "column", "row"]}
-		w={["85%", "85%", "85%", "92%"]}
-		paddingLeft={["2px", "65px", "75px", "100px"]}
+		w={["85%", "88%", "92%", "92%"]}
+		paddingLeft={["2px", "25px", "50px", "100px"]}
 		paddingTop={["2px", "65px", "75px", "25px"]}
-		margin="39px"
+		margin="37px"
 	>
 		<Image
 			src="https://media-exp1.licdn.com/dms/image/C4E03AQECg5KFTw5vBg/profile-displayphoto-shrink_200_200/0/1629295349810?e=1639008000&v=beta&t=v1aVZs6N5j7VCcapk3f572kekdZnOZdcEPxIHSLEiO8"
 			alt="Raymundo-Cabrera"
 			direction="column"
 			boxShadow="dark-lg"
-			objectFit="cover"
-			boxSize={["99%", "82%", "90%", "35%"]}
+			boxSize={["101%", "95%", "95%", "35%"]}
 		/>
 
 		<Stack
@@ -22,34 +21,29 @@ const container = () => (
 			direction="column"
 			boxShadow="dark-lg"
 			color="white"
-			padding="40px"
+			padding="30px"
 			fontWeight="light"
 			letterSpacing="1px"
 			spacing={4}
-			h={["105vw", "68vw", "68vw", "30vw"]}
-			fontSize={["27px", "36px", "42px", "58px"]}
-			w={["99%", "90%", "95%", "59%"]}
+			h={["110vw", "68vw", "28vw", "30vw"]}
+			fontSize={["28px", "35px", "45px", "52px"]}
+			w={["100%", "95%", "98%", "59%"]}
 		>
-			<Text paddingLeft="34px">Raymundo Cabrera Mena</Text>
+			<Text paddingLeft="35px">Raymundo Cabrera Mena</Text>
 			<Divider variant="solid" h="5px" orientation="horizontal" />
-			<Stack direction="row" spacing={0} padding="5px">
-				<Divider variant="solid" orientation="vertical" h="210px" />
+			<Stack direction="row" spacing={0} padding="0px">
 				<UnorderedList>
 					<Text
 						color="white"
 						fontWeight="light"
-						padding="30px"
+						padding="25px"
 						paddingTop="15px"
-						fontSize={["18px", "22px", "27px", "30px"]}
+						fontSize={["17px", "25px", "20px", "28px"]}
 					>
 						Universidad Autónoma del Estado de Hidalgo
 					</Text>
 
-					<Text
-						padding="30px"
-						paddingTop="0px"
-						fontSize={["18px", "22px", "27px", "30px"]}
-					>
+					<Text padding="25px" fontSize={["17px", "25px", "20px", "28px"]}>
 						Estudiante de Ingenieria de Software
 					</Text>
 				</UnorderedList>

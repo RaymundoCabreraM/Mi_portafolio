@@ -6,7 +6,7 @@ import Footer from "../components/Footer/footer";
 
 export default function Contactos() {
 	return (
-		<Box w="100%" bg="#87929E">
+		<Box bg="#87929E">
 			<div>
 				<Navbar />
 				<Contacto />

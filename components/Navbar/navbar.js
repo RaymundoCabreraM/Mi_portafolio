@@ -15,7 +15,7 @@ const Navbar = (props) => {
 			letterSpacing="1px"
 			wrap="wrap"
 			boxShadow="dark-lg"
-			padding={10}
+			padding={5}
 			bg="#343A40"
 			color="white"
 			{...props}
@@ -31,7 +31,7 @@ const Navbar = (props) => {
 				alignItems="center"
 				flexGrow={5}
 				padding="5px"
-				mt={{ base: 5, md: 0 }}
+				mt={{ base: 4, md: 0 }}
 			>
 				<Link
 					href="/contactos"
@@ -54,7 +54,7 @@ const Navbar = (props) => {
 
 			<Box
 				display={{ base: isOpen ? "block" : "none", md: "block" }}
-				mt={{ base: 5, md: 0 }}
+				mt={{ base: 0, md: 0 }}
 			/>
 		</Flex>
 	);

@@ -3,18 +3,18 @@ import { Divider, Stack, Flex, Text, Image, UnorderedList } from "@chakra-ui/rea
 const container = () => (
 	<Flex
 		direction={["column", "column", "column", "row"]}
-		w={["88%", "88%", "92%", "92%"]}
-		paddingLeft={["2px", "25px", "50px", "100px"]}
-		paddingTop={["2px", "65px", "75px", "25px"]}
-		margin="27px"
+		w={["88%", "92%", "96%", "91%"]}
+		paddingLeft={["2px", "27px", "34px", "100px"]}
+		paddingTop={["2px", "60px", "75px", "25px"]}
+		margin="26px"
 	>
 		<Image
 			src="https://media-exp1.licdn.com/dms/image/C4E03AQECg5KFTw5vBg/profile-displayphoto-shrink_200_200/0/1629295349810?e=1639008000&v=beta&t=v1aVZs6N5j7VCcapk3f572kekdZnOZdcEPxIHSLEiO8"
 			alt="Raymundo-Cabrera"
 			direction="column"
 			boxShadow="dark-lg"
-			boxSize={["101%", "95%", "95%", "36%"]}
-			h={["110vw", "68vw", "28vw", "32vw"]}
+			boxSize={["100%", "95%", "98%", "35%"]}
+			h={["100vw", "78vw", "80vw", "31vw"]}
 		/>
 
 		<Stack
@@ -26,25 +26,31 @@ const container = () => (
 			fontWeight="light"
 			letterSpacing="1px"
 			spacing={4}
-			h={["110vw", "68vw", "28vw", "32vw"]}
-			fontSize={["28px", "35px", "45px", "52px"]}
+			h={["100vw", "55vw", "45vw", "31vw"]}
+			fontSize={["26px", "39px", "49px", "50px"]}
 			w={["100%", "95%", "98%", "59%"]}
 		>
-			<Text paddingLeft="35px">Raymundo Cabrera Mena</Text>
+			<Text paddingLeft="30px">Raymundo Cabrera Mena</Text>
 			<Divider variant="solid" h="5px" orientation="horizontal" />
 			<Stack direction="row" spacing={0} padding="0px">
 				<UnorderedList>
 					<Text
 						color="white"
 						fontWeight="light"
-						padding="15px"
+						padding="10px"
 						paddingTop="10px"
-						fontSize={["17px", "25px", "20px", "27px"]}
+						fontSize={["18px", "21px", "25px", "27px"]}
 					>
 						Universidad Autónoma del Estado de Hidalgo
 					</Text>
 
-					<Text padding="15px" fontSize={["17px", "25px", "20px", "27px"]}>
+					<Text
+						color="white"
+						fontWeight="light"
+						padding="10px"
+						paddingTop="10px"
+						fontSize={["18px", "21px", "25px", "27px"]}
+					>
 						Estudiante de Ingenieria de Software
 					</Text>
 				</UnorderedList>

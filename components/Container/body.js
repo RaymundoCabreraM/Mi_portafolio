@@ -12,9 +12,9 @@ import {
 const body = () => (
 	<Flex
 		direction={["column", "column", "row", "row"]}
-		w={["86%", "85%", "95%", "98%"]}
-		paddingLeft={["12px", "10px", "45px", "100px"]}
-		paddingTop={["2px", "65px", "55px", "20px"]}
+		w={["86%", "87%", "95%", "98%"]}
+		paddingLeft={["6px", "26px", "30px", "100px"]}
+		paddingTop={["2px", "26px", "55px", "20px"]}
 		margin="25px"
 	>
 		<Stack
@@ -124,9 +124,9 @@ const body = () => (
 			marginLeft="5px"
 			margin="5px"
 			spacing={4}
-			minH={["50vw", "58vw", "50vw", "6vw"]}
+			minH={["57vw", "58vw", "50vw", "6vw"]}
 			fontSize={["27px", "36px", "42px", "44px"]}
-			w={["99%", "90%", "95%", "45%"]}
+			w={["99%", "100%", "95%", "43%"]}
 		>
 			<Text paddingLeft="5px">Habilidades Tecnicas</Text>
 			<Divider variant="solid" h="5px" orientation="horizontal" />
@@ -146,7 +146,7 @@ const body = () => (
 				<UnorderedList
 					margin="25px"
 					fontWeight="light"
-					fontSize={["12px", "10px", "15px", "18px"]}
+					fontSize={["12px", "17x", "15px", "18px"]}
 				>
 					<ListItem>
 						HTML5
@@ -183,7 +183,7 @@ const body = () => (
 				<UnorderedList
 					margin="25px"
 					fontWeight="light"
-					fontSize={["12px", "22px", "15px", "18px"]}
+					fontSize={["12px", "17px", "15px", "18px"]}
 				>
 					<ListItem>
 						Kotlin <Progress colorScheme="messenger" size="md" value={60} />
@@ -205,7 +205,7 @@ const body = () => (
 				<UnorderedList
 					margin="25px"
 					fontWeight="light"
-					fontSize={["12px", "22px", "15px", "18px"]}
+					fontSize={["12px", "17px", "15px", "18px"]}
 				>
 					<ListItem>
 						C , C++ <Progress colorScheme="messenger" size="md" value={70} />
@@ -228,13 +228,13 @@ const body = () => (
 				paddingLeft="25px"
 				padding="15px"
 				fontWeight="semibold"
-				fontSize={["17px", "23px", "23px", "24px"]}
+				fontSize={["17px", "17px", "23px", "24px"]}
 			>
 				<Text>Bases de datos</Text>
 				<UnorderedList
 					margin="25px"
 					fontWeight="light"
-					fontSize={["12px", "22px", "15px", "18px"]}
+					fontSize={["12px", "17px", "15px", "18px"]}
 				>
 					<ListItem>
 						SQL Server , MySql

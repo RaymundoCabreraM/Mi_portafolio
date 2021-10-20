@@ -150,7 +150,7 @@ https://codepen.io/RaymundoC13/full/abWxQJb"
 								</Heading>
 								<Text color="blackAlpha.900">
 									Proyecto de mi portafolio personal desarrollada usando
-									frameworks como Next.JS y Chakra UI
+									frameworks como Next.JS y Chakra UI.
 								</Text>
 							</Stack>
 							<Stack mt={8} direction="row" spacing={5} align="center">

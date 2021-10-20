@@ -34,7 +34,7 @@ const body = () => (
 		>
 			<Text paddingLeft="5px">Acerca de mi</Text>
 			<Divider variant="solid" h="5px" orientation="horizontal" />
-			<Box bg="#87929E" boxShadow="dark-lg" w="100%" p={5} color="white">
+			<Box bg="#87929E" boxShadow="dark-lg" w="100%" p={6} color="white">
 				<Text margin="15px" fontSize={["12px", "17px", "20px", "21px"]}>
 					Actualmente cursando el último año de la carrera, con los conocimientos
 					necesarios para la realización de proyectos de software.
@@ -47,7 +47,7 @@ const body = () => (
 			</Box>
 			<Text paddingLeft="5px">Formacion Academica</Text>
 			<Divider variant="solid" h="5px" orientation="horizontal" />
-			<Box bg="#87929E" w="100%" boxShadow="dark-lg" p={5} color="white">
+			<Box bg="#87929E" w="100%" boxShadow="dark-lg" p={6} color="white">
 				<Text
 					margin="10px"
 					fontWeight="bold"
@@ -62,6 +62,7 @@ const body = () => (
 				<Text margin="15px" paddingLeft="10px" fontSize={["12px", "17px", "20px", "18px"]}>
 					Promedio: 9.06
 				</Text>
+				<Divider variant="solid" h="5px" orientation="horizontal" />
 				<Text
 					margin="10px"
 					fontWeight="bold"
@@ -79,8 +80,8 @@ const body = () => (
 			</Box>
 
 			<Text paddingLeft="5px">Experiencia</Text>
-			<Divider variant="solid" h="5px" boxShadow="dark-lg" orientation="horizontal" />
-			<Box bg="#87929E" w="100%" p={5} color="white">
+			<Divider variant="solid" h="5px" orientation="horizontal" />
+			<Box bg="#87929E" w="100%" p={6} boxShadow="dark-lg" color="white">
 				<Text fontWeight="bold" margin="5px" fontSize={["13px", "17px", "20px", "20px"]}>
 					Proyecto: Desarrollo de Apps Moviles.
 				</Text>
@@ -90,7 +91,7 @@ const body = () => (
 				<Text margin="10px" fontSize={["11px", "17px", "20px", "17px"]}>
 					Enero - Julio 2021
 				</Text>
-
+				<Divider variant="solid" h="5px" orientation="horizontal" />
 				<Text fontWeight="bold" margin="5px" fontSize={["13px", "17px", "20px", "20px"]}>
 					Proyecto: ASIST-PROY
 				</Text>
@@ -100,7 +101,7 @@ const body = () => (
 				<Text margin="10px" fontSize={["11px", "17px", "20px", "17px"]}>
 					Agosto - Diciembre 2020
 				</Text>
-
+				<Divider variant="solid" h="5px" orientation="horizontal" />
 				<Text fontWeight="bold" margin="5px" fontSize={["13px", "17px", "20px", "20px"]}>
 					Proyecto: Costeo de Mano de Obra
 				</Text>
@@ -133,45 +134,51 @@ const body = () => (
 			<Box
 				bg="#87929E"
 				w="100%"
-				p={2}
+				p={4}
 				boxShadow="dark-lg"
 				color="white"
-				paddingLeft="20px"
+				paddingLeft="25px"
 				padding="15px"
 				fontWeight="semibold"
-				fontSize={["17px", "23px", "23px", "24px"]}
+				fontSize={["17px", "22px", "22px", "22px"]}
 			>
 				<Text>Desarrollo Web</Text>
 
 				<UnorderedList
 					margin="25px"
 					fontWeight="light"
+					spacing="20px"
 					fontSize={["12px", "17x", "15px", "18px"]}
 				>
 					<ListItem>
 						HTML5
 						<Progress colorScheme="messenger" size="md" value={90} />
+						<Text fontSize={["11px", "13x", "14px", "15px"]}>90%</Text>
 					</ListItem>
 
 					<ListItem>
 						CSS - Bootstrap <Progress colorScheme="messenger" size="md" value={85} />
+						<Text fontSize={["11px", "13x", "14px", "15px"]}>85%</Text>
 					</ListItem>
 					<ListItem>
 						JavaScript - ES6 <Progress colorScheme="messenger" size="md" value={70} />
+						<Text fontSize={["11px", "13x", "14px", "15px"]}>70%</Text>
 					</ListItem>
 					<ListItem>
 						React - Redux <Progress colorScheme="messenger" size="md" value={70} />
+						<Text fontSize={["11px", "13x", "14px", "15px"]}>70%</Text>
 					</ListItem>
 					<ListItem>
 						Next.Js - Chakra UI
-						<Progress colorScheme="messenger" size="md" value={50} />
+						<Progress colorScheme="messenger" size="md" value={60} />
+						<Text fontSize={["11px", "13x", "14px", "15px"]}>60%</Text>
 					</ListItem>
 				</UnorderedList>
 			</Box>
 			<Box
 				bg="#87929E"
 				w="100%"
-				p={2}
+				p={4}
 				boxShadow="dark-lg"
 				color="white"
 				paddingLeft="25px"
@@ -186,7 +193,9 @@ const body = () => (
 					fontSize={["12px", "17px", "15px", "18px"]}
 				>
 					<ListItem>
-						Kotlin <Progress colorScheme="messenger" size="md" value={60} />
+						Kotlin Android Jetpack
+						<Progress colorScheme="messenger" size="md" value={60} />
+						<Text fontSize={["11px", "13x", "14px", "15px"]}>60%</Text>
 					</ListItem>
 				</UnorderedList>
 			</Box>
@@ -204,18 +213,22 @@ const body = () => (
 				<Text>Desarrollo de Software</Text>
 				<UnorderedList
 					margin="25px"
+					spacing="20px"
 					fontWeight="light"
 					fontSize={["12px", "17px", "15px", "18px"]}
 				>
 					<ListItem>
 						C , C++ <Progress colorScheme="messenger" size="md" value={70} />
+						<Text fontSize={["11px", "13x", "14px", "15px"]}>70%</Text>
 					</ListItem>
 					<ListItem>
 						Java <Progress colorScheme="messenger" size="md" value={75} />
+						<Text fontSize={["11px", "13x", "14px", "15px"]}>75%</Text>
 					</ListItem>
 					<ListItem>
 						Visual Basic .NET , C #{" "}
 						<Progress colorScheme="messenger" size="md" value={85} />
+						<Text fontSize={["11px", "13x", "14px", "15px"]}>85%</Text>
 					</ListItem>
 				</UnorderedList>
 			</Box>
@@ -234,16 +247,19 @@ const body = () => (
 				<UnorderedList
 					margin="25px"
 					fontWeight="light"
+					spacing="20px"
 					fontSize={["12px", "17px", "15px", "18px"]}
 				>
 					<ListItem>
 						SQL Server , MySql
 						<Progress colorScheme="messenger" size="md" value={65} />
+						<Text fontSize={["11px", "13x", "14px", "15px"]}>65%</Text>
 					</ListItem>
 
 					<ListItem>
 						NoSQL
-						<Progress colorScheme="messenger" size="md" value={40} />
+						<Progress colorScheme="messenger" size="md" value={45} />
+						<Text fontSize={["11px", "13x", "14px", "15px"]}>45%</Text>
 					</ListItem>
 				</UnorderedList>
 			</Box>

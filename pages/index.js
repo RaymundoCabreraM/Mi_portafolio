@@ -11,6 +11,7 @@ export default function Home() {
 			<Head>
 				<title>Mi portafolio</title>
 				<link rel="icon" href="/favicon.ico" />
+				<meta title="Content" name="description" content="Mi portafolio" />
 			</Head>
 			<main>
 				<div>

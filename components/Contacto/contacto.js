@@ -16,6 +16,7 @@ const Contacto = () => (
 	<Flex
 		direction={["column", "column", "column", "row"]}
 		w={["82%", "85%", "95%", "98%"]}
+		minH={["57vw", "58vw", "50vw", "44vw"]}
 		paddingLeft={["15px", "65px", "75px", "100px"]}
 		paddingTop={["5px", "65px", "75px", "24px"]}
 		margin="25px"

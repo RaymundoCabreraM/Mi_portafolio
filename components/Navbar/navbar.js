@@ -11,7 +11,7 @@ const Navbar = (props) => {
 		<Flex
 			as="nav"
 			direction="column"
-			fontSize="15px"
+			fontSize="14px"
 			letterSpacing="1px"
 			wrap="wrap"
 			boxShadow="dark-lg"
@@ -35,19 +35,19 @@ const Navbar = (props) => {
 			>
 				<Link
 					href="/contactos"
-					fontSize={["12px", "17px", "20px", "21px"]}
+					fontSize={["12px", "17px", "17px", "18px"]}
 					paddingRight="8"
 				>
 					Contacto
 				</Link>
 				<Link
 					href="/proyectos"
-					fontSize={["12px", "17px", "20px", "21px"]}
+					fontSize={["12px", "17px", "17px", "18px"]}
 					paddingRight="8"
 				>
 					Proyectos
 				</Link>
-				<Link href="/#" fontSize={["12px", "17px", "20px", "21px"]} paddingRight="8">
+				<Link href="/#" fontSize={["12px", "17px", "17px", "18px"]} paddingRight="8">
 					Inicio
 				</Link>
 			</Stack>

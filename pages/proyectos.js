@@ -7,6 +7,9 @@ import Footer from "../components/Footer/footer";
 export default function Proyecto() {
 	return (
 		<Box bg="#87929E">
+			<title>Mi portafolio</title>
+			<link rel="icon" href="/favicon.ico" />
+			<meta title="Proyectos" name="description" content="Mis proyectos" />
 			<div>
 				<Navbar />
 				<Proyectos />

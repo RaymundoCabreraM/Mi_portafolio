@@ -151,11 +151,6 @@ https://codepen.io/RaymundoC13/full/abWxQJb"
 										Zeniaq Technologies - Practicas Profesionales.
 									</Text>
 									<Text color="gray.900">Agosto - Octubre, 2021</Text>
-									<Button colorScheme="teal" variant="outline">
-										<Link href="https://gitlab.com/terrabionic/dieta-app">
-											Ir a proyecto
-										</Link>
-									</Button>
 								</Stack>
 							</Stack>
 						</Box>

@@ -126,7 +126,7 @@ const Contacto = () => (
 					<FormLabel paddingTop="20px">Mensaje</FormLabel>
 					<Textarea placeholder="Agrega tu mensaje" />
 					<Button colorScheme="blue" variant="solid">
-						Enviar
+						Enviar - Manten
 					</Button>
 				</Stack>
 			</Box>

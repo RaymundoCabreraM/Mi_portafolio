@@ -9,7 +9,7 @@ const container = () => (
 		margin="25px"
 	>
 		<Image
-			src="https://media-exp1.licdn.com/dms/image/C4E03AQECg5KFTw5vBg/profile-displayphoto-shrink_200_200/0/1629295349810?e=1639008000&v=beta&t=v1aVZs6N5j7VCcapk3f572kekdZnOZdcEPxIHSLEiO8"
+			src="https://firebasestorage.googleapis.com/v0/b/portafolio-79b05.appspot.com/o/K4iJdwMp_400x400.jpg?alt=media&token=5b3d903e-0136-4991-806d-d43a01b1b389"
 			alt="Raymundo-Cabrera"
 			direction="column"
 			boxShadow="dark-lg"

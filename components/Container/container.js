@@ -49,7 +49,7 @@ const container = () => (
 						paddingTop="15px"
 						fontSize={["18px", "21px", "25px", "27px"]}
 					>
-						Estudiante de Ingenieria de Software.
+						Egresado de Ingenieria de Software.
 					</Text>
 				</UnorderedList>
 			</Stack>
